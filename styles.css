@@ -1,4 +1,28 @@
+/*
+  Boje
+*/
+
+/*
+  Izbornik
+*/
+
 #btn-kontakt {
   background-color: #d72d1e;
   color: #ffffff;
+}
+
+/*
+  Fontovi
+*/
+
+.font-izbornik {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-podnozje {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
