@@ -1,13 +1,59 @@
 /*
-  Boje
+  Varijable boja
 */
+
+:root {
+  --crvena-foto-begovic: #d72d1e;
+}
+
+/*
+  Sadržaj - index
+*/
+#naslovna {
+  width: 100%;
+  background-image: url("images/naslovna.JPG"); /* Replace with your image URL */
+}
+
+.grid-square {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bg-color-1 {
+  background-color: #007bff;
+} /* Blue */
+.bg-color-2 {
+  background-color: #28a745;
+} /* Green */
+.bg-color-3 {
+  background-color: #dc3545;
+} /* Red */
+.bg-color-4 {
+  background-color: #ffc107;
+} /* Yellow */
+.bg-color-5 {
+  background-color: #17a2b8;
+} /* Teal */
+.bg-color-6 {
+  background-color: #6f42c1;
+} /* Purple */
+.bg-color-7 {
+  background-color: #fd7e14;
+} /* Orange */
+.bg-color-8 {
+  background-color: #343a40;
+} /* Dark Gray */
 
 /*
   Izbornik
 */
 
 #btn-kontakt {
-  background-color: #d72d1e;
+  background-color: var(--crvena-foto-begovic);
   color: #ffffff;
 }
 
