@@ -49,6 +49,19 @@
 } /* Dark Gray */
 
 /*
+  Podnožje
+*/
+
+a.poveznica-podnozje {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a.poveznica-podnozje:hover {
+  text-decoration: none;
+}
+
+/*
   Izbornik
 */
 
