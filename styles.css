@@ -70,6 +70,26 @@ a.poveznica-podnozje:hover {
   color: #ffffff;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Zadano je podcrtati poveznicu na trenutnu stranicu */
+.trenutna-stranica .nav-link {
+  text-decoration: underline;
+}
+
+/* Kada je kursor preko drugih elemenata treba maknuti podcrtnje sa vec spomenute poveznice */
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav:hover .trenutna-stranica .nav-link {
+  text-decoration: none;
+}
+
+/* Podcrtati poveznicu preko koje se nalazi kursor */
+.navbar-nav .nav-item:hover .nav-link {
+  text-decoration: underline;
+}
+
 /*
   Fontovi
 */
