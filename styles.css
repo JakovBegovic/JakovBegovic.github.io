@@ -9,6 +9,7 @@
 /*
   Sadržaj - index
 */
+
 #naslovna {
   width: 100%;
   background-image: url("images/naslovna.JPG"); /* Replace with your image URL */
@@ -20,7 +21,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .bg-color-1 {
