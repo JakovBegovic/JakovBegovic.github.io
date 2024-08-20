@@ -76,7 +76,6 @@ a.poveznica-podnozje:hover {
 }
 
 /* Kada je kursor preko drugih elemenata treba maknuti podcrtnje sa vec spomenute poveznice */
-.navbar-nav .nav-item:hover .nav-link,
 .navbar-nav:hover .trenutna-stranica .nav-link {
   text-decoration: none;
 }
@@ -96,6 +95,10 @@ a.poveznica-podnozje:hover {
   background-color: #ffffff;
   color: var(--crvena-foto-begovic);
   border: 2px solid var(--crvena-foto-begovic);
+}
+
+.navbar:has(#btn-kontakt:hover) .navbar-nav .trenutna-stranica .nav-link {
+  text-decoration: none;
 }
 
 /*
