@@ -3,8 +3,13 @@
 */
 
 :root {
-  --crvena-foto-begovic: #d72d1e;
+  --crvena-foto-begovic: rgba(215, 45, 30, 1);
+  --crvena-prozirna-foto-begovic: rgba(215, 45, 30, 0.3);
 }
+
+/*
+  Sadržaj - o nama
+*/
 
 /*
   Sadržaj - index
@@ -105,9 +110,26 @@ a.poveznica-podnozje:hover {
   text-decoration: none;
 }
 
+/* Custom button active state color */
+#btn-kontakt:active,
+#btn-kontakt.active {
+  border-color: var(
+    --crvena-prozirna-foto-begovic
+  ); /* Optional: change border color to match */
+}
+
+/* Optional: Change button focus border color to match */
+#btn-kontakt:focus {
+  box-shadow: 0 0 0 0.2rem var(--crvena-prozirna-foto-begovic); /* Adjust the rgba values to match */
+}
+
 /*
   Fontovi
 */
+
+.font-sadrzaj {
+  font-size: 1.1rem;
+}
 
 .font-izbornik {
   font-family: "Poppins", sans-serif;
