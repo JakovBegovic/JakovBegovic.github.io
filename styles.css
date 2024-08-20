@@ -110,19 +110,6 @@ a.poveznica-podnozje:hover {
   text-decoration: none;
 }
 
-/* Custom button active state color */
-#btn-kontakt:active,
-#btn-kontakt.active {
-  border-color: var(
-    --crvena-prozirna-foto-begovic
-  ); /* Optional: change border color to match */
-}
-
-/* Optional: Change button focus border color to match */
-#btn-kontakt:focus {
-  box-shadow: 0 0 0 0.2rem var(--crvena-prozirna-foto-begovic); /* Adjust the rgba values to match */
-}
-
 /*
   Fontovi
 */
