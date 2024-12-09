@@ -25,7 +25,7 @@
 
 #kartica-sv-potvrde {
   height: 160px;
-  background: url("images/index/krizma.webp") no-repeat center center;
+  background: url("images/index/crkva-privremena.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -38,6 +38,49 @@
 #kartica-ostali-dogadjaji {
   height: 160px;
   background: url("images/index/ostali-dogadjaji.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-izrada-fotografija {
+  height: 160px;
+  background: url("images/index/izrada-fotografija.webp") no-repeat center
+    center;
+  background-size: cover;
+}
+
+#kartica-izrada-montaza {
+  height: 160px;
+  background: url("images/index/izrada-montaza.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-snimanje-dron {
+  height: 160px;
+  background: url("images/index/snimanje-dron.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-foto-dokumente {
+  height: 160px;
+  background: url("images/index/foto-dokumente.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-vjencanje1 {
+  height: 160px;
+  background: url("images/index/vjencanje1.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-vjencanje2 {
+  height: 160px;
+  background: url("images/index/vjencanje2.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-vjencanje3 {
+  height: 160px;
+  background: url("images/index/vjencanje3.webp") no-repeat center center;
   background-size: cover;
 }
 
