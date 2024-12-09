@@ -67,19 +67,19 @@
 }
 
 #kartica-vjencanje1 {
-  height: 160px;
+  height: 150px;
   background: url("images/index/vjencanje1.webp") no-repeat center center;
   background-size: cover;
 }
 
 #kartica-vjencanje2 {
-  height: 160px;
+  height: 150px;
   background: url("images/index/vjencanje2.webp") no-repeat center center;
   background-size: cover;
 }
 
 #kartica-vjencanje3 {
-  height: 160px;
+  height: 150px;
   background: url("images/index/vjencanje3.webp") no-repeat center center;
   background-size: cover;
 }
