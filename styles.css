@@ -127,30 +127,16 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
-.bg-color-1 {
-  background-color: #007bff;
-} /* Blue */
-.bg-color-2 {
-  background-color: #28a745;
-} /* Green */
-.bg-color-3 {
-  background-color: #dc3545;
-} /* Red */
-.bg-color-4 {
-  background-color: #ffc107;
-} /* Yellow */
-.bg-color-5 {
-  background-color: #17a2b8;
-} /* Teal */
-.bg-color-6 {
-  background-color: #6f42c1;
-} /* Purple */
-.bg-color-7 {
-  background-color: #fd7e14;
-} /* Orange */
-.bg-color-8 {
-  background-color: #343a40;
-} /* Dark Gray */
+
+/*
+  Sadržaj - o nama
+*/
+#foto-stara-radnja {
+  width: 421px;
+  height: 267px;
+  background: url("images/o-nama/stara-radnja.jpg") no-repeat center center;
+  background-size: cover;
+}
 
 /*
   Podnožje
