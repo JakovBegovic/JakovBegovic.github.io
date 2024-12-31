@@ -5,6 +5,14 @@
 :root {
   --crvena-foto-begovic: rgba(215, 45, 30, 1);
   --crvena-prozirna-foto-begovic: rgba(215, 45, 30, 0.3);
+  --pozadina: rgb(255, 255, 255);
+}
+
+/*
+  Boja pozadine
+*/
+body {
+  background-color: var(--pozadina);
 }
 
 /*
@@ -131,6 +139,7 @@
 /*
   Sadržaj - o nama
 */
+
 #foto-stara-radnja {
   width: 421px;
   height: 267px;
