@@ -20,6 +20,20 @@ body {
   Sadržaj - index
 */
 
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
 .tekst-kartica {
   display: flex;
   align-items: center;
@@ -28,7 +42,11 @@ body {
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 12px rgb(0, 0, 0), 1px 1px 7px rgb(0, 0, 0);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #kartica-vjencanja {
@@ -226,6 +244,9 @@ a.poveznica-podnozje:hover {
 
 .font-sadrzaj {
   font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-izbornik {
