@@ -20,6 +20,12 @@ body {
   Sadržaj - svi
 */
 
+/*
+i {
+  color: var(--crvena-foto-begovic);
+}
+*/
+
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -163,8 +169,13 @@ h4 {
 
 #kartica-kamera-perspektiva {
   height: 160px;
-  background: url("images/o-nama/kamera-perspektiva.webp") no-repeat center
-    center;
+  background: url("images/o-nama/dron-1.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#kartica-montaza-2 {
+  height: 160px;
+  background: url("images/o-nama/dron-2.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -177,12 +188,6 @@ h4 {
 #kartica-printer-drugi-2 {
   height: 160px;
   background: url("images/o-nama/printer-drugi-2.webp") no-repeat center center;
-  background-size: cover;
-}
-
-#kartica-montaza-2 {
-  height: 160px;
-  background: url("images/o-nama/montaza-2.webp") no-repeat center center;
   background-size: cover;
 }
 
