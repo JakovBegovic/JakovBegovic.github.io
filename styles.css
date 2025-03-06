@@ -9,6 +9,46 @@
 }
 
 /*
+  Fontovi
+*/
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-sadrzaj {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-izbornik {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-podnozje {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+/*
   Boja pozadine
 */
 
@@ -239,28 +279,4 @@ a.poveznica-podnozje:hover {
 
 #lokacija-2 {
   text-decoration: none;
-}
-
-/*
-  Fontovi
-*/
-
-.font-sadrzaj {
-  font-size: 1.1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font-izbornik {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.font-podnozje {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 0.85rem;
-  font-style: normal;
 }
