@@ -32,6 +32,10 @@
   font-style: normal;
 }
 
+.font-crven {
+  color: var(--crvena-foto-begovic);
+}
+
 /*
   Boja pozadine
 */
