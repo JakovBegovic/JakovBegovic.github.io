@@ -167,7 +167,7 @@ h4 {
   background-size: cover;
 }
 
-#kartica-kamera-perspektiva {
+#kartica-dron-1 {
   height: 160px;
   background: url("images/o-nama/dron-1.webp") no-repeat center center;
   background-size: cover;
@@ -182,12 +182,6 @@ h4 {
 #kartica-printer-drugi {
   height: 160px;
   background: url("images/o-nama/printer-drugi.webp") no-repeat center center;
-  background-size: cover;
-}
-
-#kartica-printer-drugi-2 {
-  height: 160px;
-  background: url("images/o-nama/printer-drugi-2.webp") no-repeat center center;
   background-size: cover;
 }
 
