@@ -12,22 +12,6 @@
   Fontovi
 */
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
 .font-sadrzaj {
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
