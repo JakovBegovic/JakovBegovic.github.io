@@ -268,3 +268,12 @@ a.poveznica-podnozje:hover {
 #lokacija-2 {
   text-decoration: none;
 }
+
+#zasluge {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+#zasluge:hover {
+  opacity: 1;
+}
