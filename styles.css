@@ -256,6 +256,11 @@ h4 {
   Podnožje
 */
 
+footer {
+  background-color: #ac3f35;
+  color: white;
+}
+
 a.poveznica-podnozje {
   color: inherit;
   text-decoration: underline;
