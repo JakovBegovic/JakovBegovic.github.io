@@ -211,6 +211,40 @@ h5 {
   background-size: cover;
 }
 
+#kartica-ostalo4 {
+  height: 150px;
+  background: url("images/index/ostalo4.webp") no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 575px) {
+  /* xs i sm */
+  .row.no-gutters-md {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters-md > [class^="col"],
+  .row.no-gutters-md > [class*=" col"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  /* md, lg i xl */
+  .row.no-gutters-md {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters-md > [class^="col"],
+  .row.no-gutters-md > [class*=" col"] {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+  }
+}
+
 /*
   Sadržaj - o nama
 */
