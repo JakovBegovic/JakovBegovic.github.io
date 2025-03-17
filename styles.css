@@ -47,24 +47,6 @@ body {
 /*
   Sadržaj - svi
 */
-/*
-@media only screen and (min-width: 420px) {
-  .horiz-lin {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-
-  .horiz-lin::before,
-  .horiz-lin::after {
-    content: "";
-    flex: 1;
-    height: 2px;
-    background-color: black;
-    margin: 0 10px;
-  }
-}
-*/
 
 main {
   background-color: #ffffff;
