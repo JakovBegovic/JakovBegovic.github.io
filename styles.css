@@ -301,6 +301,58 @@ h5 {
   text-decoration: none;
 }
 
+.custom-toggler {
+  border: 2px solid var(--crvena-foto-begovic); /* Always visible outline */
+  border-radius: 5px; /* Rounded corners */
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #212529dd;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #212529dd;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.custom-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* When navbar is expanded */
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
 /*
   Podnožje
 */
