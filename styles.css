@@ -311,6 +311,7 @@ h5 {
 }
 
 .custom-toggler .navbar-toggler-icon {
+  border-radius: 10px; /* This rounds the corners */
   width: 30px;
   height: 3px;
   background-color: #212529dd;
@@ -321,6 +322,7 @@ h5 {
 
 .custom-toggler .navbar-toggler-icon::before,
 .custom-toggler .navbar-toggler-icon::after {
+  border-radius: 10px; /* This rounds the corners */
   content: "";
   width: 30px;
   height: 3px;
