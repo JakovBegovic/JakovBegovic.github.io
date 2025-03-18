@@ -231,6 +231,13 @@ h5 {
   Sadržaj - o nama
 */
 
+.prvo-slovo::first-letter {
+  font-size: 1.8em; /* Makes the first letter bigger */
+  font-family: "Merriweather", serif; /* Applies Merriweather font */
+  font-weight: bold; /* Optional: Makes it bold */
+  color: #333; /* Optional: Changes the color */
+}
+
 #foto-stara-radnja {
   width: 421px;
   height: 267px;
